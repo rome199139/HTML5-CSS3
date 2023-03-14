@@ -1,0 +1,67 @@
+header{
+    display: flex;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;   
+    background-color:rgb(1, 158, 158);
+    padding: 10px;
+    justify-content: space-around;   
+    text-align: center; 
+}
+
+h2{
+    font-family: 'Times New Roman', Times, serif;
+    color:orange;
+}
+
+body {
+    margin: 15px;
+}
+
+main {
+    margin: 18px 150px;
+    display: flex;
+}
+
+#datos {
+    margin-top: 15px;
+    width: 70%;
+    line-height: 10px;
+    color: white;
+    
+}
+
+#imagen {
+    width: 30%;
+    text-align: left;
+}
+
+.side {
+    width: 50%;
+    text-align: justify;
+}
+
+.data-persona {
+    display: flex;    
+}
+
+#datos-label{
+    font-weight: bold;
+    width: 50%;
+}
+
+#seccion-derecha{
+    margin-right: 25px;
+}
+
+h3 {
+    font-weight: bold;
+}
+
+.cargo {
+    font-weight: bold;
+}
+
+p {
+    margin: 4px; 
+   
+}

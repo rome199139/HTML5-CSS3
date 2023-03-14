@@ -1,0 +1,31 @@
+p {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size:xx-large;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+hr {
+    background-color: green;
+    height: 2px;
+}
+
+article {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+}
+
+.imagen {
+    width: 40%;
+    padding-left: 30%;
+}    
+
+body {
+    width: 90%;
+    margin-left: 50px;
+}
+
+img {
+    margin: 0px 10px;
+}

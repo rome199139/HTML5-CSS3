@@ -1,0 +1,51 @@
+body {
+    background-color: rgb(125, 213, 253);
+}
+
+main {    
+    border-radius: 12px;
+    width: 40%;
+    margin: 35px auto;
+    padding: 20px;
+    background-color: white;
+}
+
+h1 {
+    color: rgb(125, 213, 253);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+label, p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: large;
+}
+
+input, textarea {
+    border-radius: 6px;    
+    border: 1px solid rgb(125, 213, 253);
+    height: 30px;
+    width: 95%;
+    padding-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;    
+}
+
+.btenvio {
+    border-radius: 6px;    
+    border: 1px solid rgb(125, 213, 253);
+    height: 30px;
+    width: 100%;
+    background-color: rgb(0, 162, 255);
+    font-size: large;
+}
+
+main input:focus{
+    border: 1px solid rgb(252, 143, 179);
+    outline: 0;
+}
+
+main textarea:focus{
+    border: 1px solid rgb(252, 143, 179);
+    outline: 0;
+}
